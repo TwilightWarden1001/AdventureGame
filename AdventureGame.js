@@ -12,11 +12,11 @@ let playerName = ""
 playerName = readline.question("What is your name, brave adventurer? ");
 
 // Create variables for player stats
-let inventory = [];
 let playerHealth = 100;
 let playerGold = 20;
 let currentLocation = "Village";
 let gameRunning = true;
+let inventory = [];
 
 // Display the game title and welcome message
 console.log("Welcome to the Adventure Game, " + playerName);
